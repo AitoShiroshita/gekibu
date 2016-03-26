@@ -1,4 +1,4 @@
-var result = ary["大吉","中吉","小吉","吉","凶","大凶"];
+var result = ["大吉","中吉","小吉","吉","凶","大凶"];
 var result_random = " ";
 
 function lot(){
