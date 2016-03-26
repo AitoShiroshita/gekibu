@@ -1,6 +1,7 @@
-var num = 0;
+var result = ary["大吉","中吉","小吉","吉","凶","大凶"];
+var result_random = " ";
 
 function lot(){
-  num = Math.floor(Math.random()*4);
-  form1.textbox.value = num;
+  result_random = result[Math.floor(Math.random() * result.length)]
+  form1.textbox.value = result_random
 }
